@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1.title {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 800px; /* Aumenta el ancho máximo para aprovechar más espacio */
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-timer-btn {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-timer-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.timers-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los temporizadores se ajusten en varias filas */
+    gap: 15px;
+    justify-content: center; /* Centra los temporizadores en la pantalla */
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Define un ancho fijo para los temporizadores */
+}
+
+.timer span {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.timer .time-display {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #007bff;
+}
+
+.timer button {
+    margin: 5px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.timer button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.timer .stop-btn {
+    background-color: #dc3545;
+}
+
+.timer .stop-btn:hover {
+    background-color: #a71d2a;
+}
+
+.timer .delete-btn {
+    background-color: #6c757d;
+}
+
+.timer .delete-btn:hover {
+    background-color: #5a6268;
+}
