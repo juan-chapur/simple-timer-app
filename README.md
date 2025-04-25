@@ -7,7 +7,6 @@ Esta es una aplicación web que permite a los usuarios crear y gestionar múltip
 - **Agregar temporizadores**: Los usuarios pueden crear temporizadores con nombres personalizados.
 - **Ajustar tiempo**: Los usuarios pueden aumentar o disminuir el tiempo de los temporizadores antes de iniciarlos.
 - **Iniciar temporizadores**: Los temporizadores comienzan a contar regresivamente desde el tiempo configurado.
-- **Guardar estado**: Los temporizadores se guardan automáticamente en `localStorage` y continúan desde donde se quedaron al recargar la página.
 - **Anuncio de finalización**: Cuando un temporizador llega a 0, se anuncia su finalización utilizando la API de `SpeechSynthesis`.
 - **Detener anuncio**: Los usuarios pueden detener el anuncio de finalización con un botón "Stop".
 - **Eliminar temporizadores**: Los temporizadores pueden eliminarse, deteniendo cualquier cuenta regresiva o anuncio activo.
